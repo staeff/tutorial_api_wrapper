@@ -9,6 +9,8 @@ requests = "*"
 [dev-packages]
 vcrpy = "*"
 pytest = "*"
+pdbpp = "*"
+bpython = "*"
 
 [requires]
 python_version = "3.6"
