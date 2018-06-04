@@ -1,6 +1,6 @@
 class TV(object):
     def __init__(self, id):
-        pass
+        self.id = id
 
     def info(self):
-        pass
+        return {'id': self.id}
