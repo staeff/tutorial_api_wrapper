@@ -13,3 +13,10 @@ The code is developed test driven and follows the tutorial https://semaphoreci.c
 * How to create and test a custom library which communicates with a third-party API and
 
 * How to use the custom library in a Python script.
+
+## TMDb API
+
+We use the .env file to set the api key as environment variable. Found on github, shared this way on the
+project since it is not public:
+
+    TMDB_API_KEY=***REMOVED***
