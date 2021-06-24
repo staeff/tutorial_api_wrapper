@@ -13,9 +13,13 @@ chardet==4.0.0
 click==8.0.1
     # via pip-tools
 idna==2.10
-    # via requests
+    # via
+    #   requests
+    #   yarl
 iniconfig==1.1.1
     # via pytest
+multidict==5.1.0
+    # via yarl
 packaging==20.9
     # via pytest
 pep517==0.10.0
@@ -32,16 +36,26 @@ pytest==6.2.4
     # via -r requirements.in
 python-dotenv==0.18.0
     # via -r requirements.in
+pyyaml==5.4.1
+    # via vcrpy
 requests==2.25.1
     # via -r requirements.in
+six==1.16.0
+    # via vcrpy
 toml==0.10.2
     # via
     #   pep517
     #   pytest
 urllib3==1.26.5
     # via requests
+vcrpy==4.1.1
+    # via -r requirements.in
 wheel==0.36.2
     # via pip-tools
+wrapt==1.12.1
+    # via vcrpy
+yarl==1.6.3
+    # via vcrpy
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
